@@ -163,12 +163,12 @@ img {
     border: none;
     margin-bottom: 0;
 }
-.widget-courses-label{
+.widget-courses-label, .courses-label{
     font-family: var(--fuenteHeading);
     font-weight: bold;
     font-size: 2rem;
 }
-.widget-courses-info{
+.widget-courses-info, .courses-info{
     font-weight: normal;
     font-size: 2rem;
 }
@@ -204,4 +204,22 @@ img {
     .about-us-img, .about-us-text{
         flex-basis: 50%;
     }
+}
+
+/*Courses*/
+
+.courses{
+    padding: 3rem 0;
+    border-bottom: 1px solid var(--secundario);
+}
+@media (min-width: 768px){
+    .courses{
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        column-gap: 2rem;
+    }
+    
+}
+.courses:last-of-type{
+    border: none;
 }
