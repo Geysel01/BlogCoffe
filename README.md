@@ -14,7 +14,7 @@ Fully Responsive: The blog is fully responsive, ensuring an optimal user experie
 
 Intuitive Navigation: Navigation through the blog is intuitive and easy to use, with well-organized menus and links to different sections of the site.
 
-Technologies Used
+Technologies Used:
 HTML5
 CSS3
 Installation
